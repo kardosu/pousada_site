@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+#bedrooms {
+	padding: 50px 0;
+}
+
+h3 {
+	margin: 0 20px;	
+	color: #000;
+}
+
+.container-cards {
+	display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0;
+	padding: 20px;
+	align-items: center;
+}
+
+figure {
+	padding: 8px; 
+	margin: 0; 
+}
+
+.single-cards {
+	display: flex;
+	width: 300px;
+	height: 210px;
+	padding: 0; 
+	margin: 0;
+}
+
+.decoration p { 
+	font-size: x-small;
+}
+
+.decoration p::before {
+	content: "•"; /* Insert content that looks like bullets */
+	padding-right: 5px; 
+}
+
+.infos {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	max-width: 940px;
+	margin: 0;
+}
+
+.info1 {
+	display: flex;
+	flex-direction: row;
+}
+
+.info2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-right:20px;	
+}
+
+.info3 {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+
+
